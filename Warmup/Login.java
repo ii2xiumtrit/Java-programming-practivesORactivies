@@ -26,6 +26,11 @@ public class Login {
             } else {
                 i++;
                 System.out.println("Try again! Attempts: "+i);
+
+            if (i == 3) {
+                break;
+            
+            }
             }
 
         } while (i <= 3 );
