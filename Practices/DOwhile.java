@@ -1,4 +1,4 @@
-package practicies;
+package Practices;
 
 public class DOwhile {
     public static void main(String[] args) {
