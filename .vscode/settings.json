@@ -4,5 +4,6 @@
     ],
     "cSpell.words": [
         "Nestforloop"
-    ]
+    ],
+    "java.debug.settings.onBuildFailureProceed": true
 }

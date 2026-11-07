@@ -7,6 +7,7 @@ public class TwoTwo {
 
         for (int i = 1; i <= 5; i++) {
             int sum = 0;
+
             for (int j = 1; j <= 5; j++) {
                 int product = j * i;
                 String zero = (product < 10) ? "0": "";
@@ -18,6 +19,7 @@ public class TwoTwo {
             }
             System.out.println("= " +sum);
         }
+        
         System.out.println("Even "+evenCounter);
         System.out.println("odd "+oddCounter);
     }
