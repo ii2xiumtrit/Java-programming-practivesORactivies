@@ -12,7 +12,7 @@ public class EnchantedForloop {
         // animals.add("WoofWoof");
         // animals.add("Roar");
 
-        for(String i : animals) {
+        for(String i : Animals) {
             System.out.println(i);
         }
     }
