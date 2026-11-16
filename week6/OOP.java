@@ -3,19 +3,12 @@ package week6;
 import java.util.Scanner;
 
 class Nihao {
-
-
     int length;
     int[] ages;
-
-
-    
 }
 
 
 public class OOP {
-
-
     
     public static void main(String[] args) {
         
@@ -31,11 +24,8 @@ public class OOP {
             System.out.print("Enter number: ");
             nihao1.ages[index] = scanner.nextInt();
         }
-
-
         Return(nihao1.ages);
     }
-
 
     public static void Return(int[] a) {
         int sum = 0;
@@ -43,7 +33,6 @@ public class OOP {
             System.out.println(index);
             sum += index;
         }
-
         System.out.println("\nSum: "+sum);
     }
 }
